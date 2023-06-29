@@ -1,0 +1,59 @@
+
+/* id selector done with hashtag */
+#topnav{
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    background-color: bisque;
+}
+
+
+.breakfast-img{
+    width: 440px;
+    border-radius: 5px;
+}
+
+
+td{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+ul > li{
+    list-style: none;
+}
+
+
+div#container{
+    background-color: #03cafc;
+}
+
+#topnav a{
+    text-decoration: none;
+    color: black;
+}
+
+#specials, #sauces{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#specials ul, #sauces ol{
+    margin-top: -15px;
+}
+
+#breakfast-image{
+    background-image: url("../images/breakfast.jpeg");
+    width: 440px;
+    height: 240px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+#breakfast-image > p{
+    font-size: 24px;
+    color: white;
+}
