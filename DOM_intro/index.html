@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main">
+        <h1 id="main-heading">Calculator</h1>
+
+        <div>
+            First Number:
+            <input class="first" type="number">
+
+            Second Number:
+            <input class="second" type="number">
+
+        </div>
+
+        <br><br>
+
+        <button id="add">Add</button>
+        <button id="subtract">Subtract</button>
+        <button id="multiply">Multiply</button>
+        <button id="divide">Divide</button>
+        <button id="clear">Clear</button>
+
+    </div>
+
+
+    <div class="result">
+        <h3>
+            Result: <span id="res"></span>  
+        </h3>
+
+    </div>
+
+<br><br><br>
+    <div id="add-em-up">
+        <div style="display: flex; align-items: center;">
+            <h2>Add Em Up</h2>
+            <button style="height: 50px; margin-left: 40px">Add em</button>
+            <h3 style="margin-left: 40px" id="add-res">0</h3>
+        </div>
+
+<br><br>
+        <div id="nums-container">
+            
+            <div style="display: flex" class="single-num">
+                Num1
+                <input type="number">
+                <button id="add-new">+</button>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
